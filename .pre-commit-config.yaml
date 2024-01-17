@@ -3,4 +3,6 @@ repos:
       rev: v0.1.4
       hooks:
           - id: scarb-fmt
+            args: [--check]
           - id: foundry-test
+            args: []
