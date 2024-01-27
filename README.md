@@ -18,8 +18,8 @@ asdf plugin add scarb
 Install:
 
 ```bash
-asdf install scarb 2.4.0
-asdf global scarb 2.4.0
+asdf install scarb 2.5.0
+asdf global scarb 2.5.0
 ```
 
 ### Starknet Foundry
@@ -34,7 +34,8 @@ asdf plugin add starknet-foundry
 Install:
 
 ```bash
-asdf install starknet-foundry 0.14.0
+asdf install starknet-foundry 0.16.0
+asdf global starknet-foundry 0.16.0
 ```
 
 ## 🛠️ Build

@@ -3,7 +3,7 @@ name: Test
 on: [push, pull_request]
 
 env:
-  SCARB_VERSION: 2.4.0
+  SCARB_VERSION: 2.5.0
 
 jobs:
   check:
@@ -15,6 +15,6 @@ jobs:
           scarb-version: ${{ env.SCARB_VERSION }}
       - uses: foundry-rs/setup-snfoundry@v2
         with:
-          starknet-foundry-version: 0.14.0
+          starknet-foundry-version: 0.16.0
       - name: Run cairo tests
         run: snforge test

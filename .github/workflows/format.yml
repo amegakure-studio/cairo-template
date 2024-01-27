@@ -3,7 +3,7 @@ name: Format
 on: [push, pull_request]
 
 env:
-  SCARB_VERSION: 2.4.0
+  SCARB_VERSION: 2.5.0
 
 jobs:
   check:
